@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка</title>
+  </head>
+  <body>
+    <header>
+      <div><img src="http://placehold.it/150x100" alt="Логотип"></div>
+      <nav>
+        <span><!-- бургер --></span>
+        <ul>
+          <li><a href="catalog.html">Каталог товаров</a></li>
+          <li><a href="#Вязание-на-заказ">Вязание на заказ</a></li>
+          <li><a href="#Поиск-по-сайту">Поиск по сайту</a></li>
+          <li><a href="#Корзина">Корзина: пока пуста</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Вязание на заказ</h1>
+
+      <p>Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+
+      <form class="" action="" method="post">
+
+        <div>
+          <p>Тип</p>
+          <input type="radio" name="type" value="1"> Аксессуар для интерьера
+          <input type="radio" name="type" value="2"> Детская игрушка
+        </div>
+        <div>
+          <p>Цвет</p>
+          <input type="checkbox" name="color[]" value="1" checked="checked"> Белый
+          <input type="checkbox" name="color[]" value="2" checked="checked"> Серый
+          <input type="checkbox" name="color[]" value="3"> «Тиффани»
+          <input type="checkbox" name="color[]" value="4"> Чёрный
+          <input type="checkbox" name="color[]" value="5"> Розовый
+          <input type="checkbox" name="color[]" value="6"> Оранжевый
+        </div>
+        <div>
+          <p>ФИО</p>
+          <!-- Изменил порядок, так как вводить ИФО совсем безумие -->
+          <label for="last_name">Фамилия:</label>
+          <input type="text" name="last_name" id="last_name" value="" placeholder="Введите вашу фамилию*">
+          <label for="first_name">Имя:</label>
+          <input type="text" name="first_name" id="first_name" value="" placeholder="Введите ваше имя*">
+          <label for="middle_name">Отчество:</label>
+          <input type="text" name="middle_name" id="middle_name" value="" placeholder="Отчество, если желаете">
+        </div>
+        <div>
+          <p><label for="tel">Телефон</label></p>
+          <input type="tel" name="tel" id="tel" value="" placeholder="+7 xxx xx xx*">
+        </div>
+
+        <div>
+          <p><label for="email">Email</label></p>
+          <input type="email" name="email" id="email" value="" placeholder="Ваш Email*">
+        </div>
+
+        <div>
+          <p><label for="desc">Доп</label></p>
+          <textarea name="desc" id="desc" placeholder="Опишите все ваши пожелания к заказу"><textarea>
+        </div>
+
+        <p>*Поля обязательны для заполнения</p>
+        <input type="submit" value="Отправить заказ">
+      </form>
+    </main>
+    <footer>
+      <div>
+        <a href="#instagram">Мы в Instagram</a>
+        <a href="#facebook">Мы в facebook</a>
+        <a href="#twitter">Мы в twitter</a>
+      </div>
+      <p>Разработанно в <a href="https://htmlacademy.ru"><img src="http://placehold.it/50x50" alt="HTML Academy"></a></p>
+    </footer>
+
+    <div>
+      <!-- модальное окно -->
+    </div>
+  </body>
+</html>
