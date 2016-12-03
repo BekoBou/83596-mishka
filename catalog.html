@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка</title>
+  </head>
+  <body>
+    <header>
+      <div><img src="http://placehold.it/150x100" alt="Логотип"></div>
+      <nav>
+        <span><!-- бургер --></span>
+        <ul>
+          <li><a href="catalog.html">Каталог товаров</a></li>
+          <li><a href="#Вязание-на-заказ">Вязание на заказ</a></li>
+          <li><a href="#Поиск-по-сайту">Поиск по сайту</a></li>
+          <li><a href="#Корзина">Корзина: пока пуста</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Каталог товаров</h1>
+
+      <div class="catalog">
+
+        <div class="catalog-item">
+          <img src="http://placehold.it/300x300" alt="">
+          <h2>Зайчик-попрыгайчик</h2>
+          <p>Рост 30 см, вес 200 г</p>
+          <p>1 200 руб.</p>
+          <form action="#/cart">
+            <input type="hidden" name="product" value="1">
+            <input type="image" name="submit" src="http://placehold.it/50x50" value="Заказать">
+          </form>
+        </div>
+
+        <div class="catalog-item">
+          <img src="http://placehold.it/300x300" alt="">
+          <h2>Корзинка для белья</h2>
+          <p>Диаметр 15 см, высота 10 см</p>
+          <p>690 руб.</p>
+          <form action="#/cart">
+            <input type="hidden" name="product" value="1">
+            <input type="image" name="submit" src="http://placehold.it/50x50" value="Заказать">
+          </form>
+        </div>
+
+        <div class="catalog-item">
+          <img src="http://placehold.it/300x300" alt="">
+          <h2>Большая корзинка<br> для игрушек</h2>
+          <p>Диаметр 30 см, высота 30 см</p>
+          <p>1 500 руб.</p>
+          <form action="#/cart">
+            <input type="hidden" name="product" value="1">
+            <input type="image" name="submit" src="http://placehold.it/50x50" value="Заказать">
+          </form>
+        </div>
+      </div>
+
+      <div>
+        <h3>Процесс производства</h3>
+        <video src="#//" poster="http://placehold.it/150x100">
+        </video>
+        <p>По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+
+        <form action="#/cart">
+          <input type="hidden" name="product" value="1">
+          <input type="submit" name="submit" value="Сделать заказ">
+        </form>
+      </div>
+
+    </main>
+    <footer>
+      <div>
+        <a href="#instagram">Мы в Instagram</a>
+        <a href="#facebook">Мы в facebook</a>
+        <a href="#twitter">Мы в twitter</a>
+      </div>
+      <p>Разработанно в <a href="https://htmlacademy.ru"><img src="http://placehold.it/50x50" alt="HTML Academy"></a></p>
+    </footer>
+
+    <div>
+      <!-- модальное окно -->
+    </div>
+  </body>
+</html>
